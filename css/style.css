@@ -1,0 +1,342 @@
+body {
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    margin: 0px;
+    background-color: #dadbda;
+    width: 100%;
+    height: 100%;
+}
+.head {
+    position: fixed;
+    width: 990px;
+    height: 35px;
+    background-color: #f7f7f7;
+    z-index: 1;
+}
+.head a{
+    text-decoration: none;
+}
+.wrapper {
+    width: 990px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.head {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e7e6e6 ;
+}
+.head img {
+    height: 30px;
+    padding-left: 195px;
+}
+h1 {
+    margin: 0;
+    color: #000000;
+    font-size: 15px;
+    font-style: italic;
+    padding-left: 5px;
+}
+nav {
+    line-height: 35px;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    padding-left: 180px;
+    justify-content: space-around;
+}
+nav div {
+    color: #000000;
+    text-decoration: none;  
+    padding: 0 10px;
+}
+nav div:hover {
+    background-color: #52ab62;    
+}
+nav a div:hover{
+    color: #ffffff;    
+}
+.auth {
+    padding-top: 35px;
+    margin: 4px 0 4px 610px;
+    height: 20px;
+    width: 262px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #a5c7ea;
+}
+.auth input {
+    width: 65px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+.auth input[type="button"] {
+    width: 33px;
+    padding: 0;
+}
+.logo {
+    position: relative;
+    width: 100%;
+}
+.logo-slide img {
+    position: relative;
+    width: 100%;
+}
+.logo-text {
+    font-size: 12px;
+    font-style: italic;
+    position: absolute;
+    right: 90px;
+    top: 40px;
+    width: 300px;
+    text-align: end;
+}
+.cells {
+    margin: 60px 70px 0 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.cells-logo-head, .gallery-head, .cell-logo-head, .cell-info-head, .delegates-head {
+    color: #52ab62;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    border-bottom: 2px solid #c3d9f1;
+    padding-bottom: 5px;
+}
+.cells-logo-head {
+    width: 195px;
+}
+.cells-logo-info {
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    width: 185px;
+}
+.cells-logo-img {
+    width: 215px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.cells-slide {
+    border: 2px solid #d3d2d2;
+    border-radius: 10px;
+    width: 196px;
+    text-align: center;
+}
+.cells-slide a {
+    text-decoration: none;
+    color: #000000;
+}
+.cells-slide:hover {
+    border-color: #a5c7ea;
+}
+.cells-slide-img {
+    margin-top: 10px;
+    width: 178px;
+    height: 177px;
+}
+.cells-slide-head {
+    margin-top: 20px;
+    width: 94px;
+    font-size: 20px;
+    font-style: italic;
+    border-bottom: 2px solid #c3d9f1;
+    margin: 20px auto 0;
+}
+.cells-slide-info {
+    margin: 5px 15px 25px 15px;
+    font-size: 12px;
+}
+.gallery {
+    margin: 70px 70px;
+}
+.gallery-img-inline {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-img-inline img{
+    max-width: 195px;
+}
+.gallery-img-block {
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-img-block img {
+    max-width: 415px;
+}
+.gallery-img-inside {
+    width: 415px;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-img-column {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cell-logo {
+    position: relative;
+}
+.cell-logo img {
+    width: 100%;
+}
+.cell-logo-head {
+    position: absolute;
+    background-color: #ffffff;
+    font-size: 36px;
+    width: 235px;
+    top: 25px;
+    left: 70px;
+}
+.cell-logo-text {
+    position: absolute;
+    left: 70px;
+    top: 120px;
+    width: 235px;
+    font-style: italic;
+    font-weight: 700;
+}
+.cell-info {
+    margin: 70px 70px;
+}
+.cell-info-head-info {
+    color: #000000;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    margin: 5px 0;
+    width: 400px;
+}
+.cell-info-text {
+    width: 415px;
+    margin: 0 0;
+    text-align: justify;
+    -webkit-column-width: 195px;
+    -moz-column-width: 195px;
+    column-width: 195px;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 25px;
+    -moz-column-gap: 25px;
+    column-gap: 25px;
+}
+.cell-info img {
+    margin-top: 25px;
+    width: 415px;
+}
+.cell-info-outside {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.cell-img-text {
+    margin-top: 5px;
+    text-align: center;
+    font-style: italic;
+}
+.delegates {
+    margin: 70px 70px;
+}
+.delegates-list {
+    display: flex;
+    justify-content: space-between;
+}
+.delegates-person {
+    width: 195px;
+    margin-top: 20px;
+    text-align: center;
+}
+.delegates-person img {
+    width: 100%;
+}
+.delegates-person-name {
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 20px;
+}
+.delegates-person-post {
+    font-size: 12px;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 2px solid #c3d9f1;
+}
+.contact {
+    padding-top: 10px;
+    border-top: 1px solid #f3f3f2;
+    display: flex;
+    justify-content: space-around;
+}
+.contact-text {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-size: 12px;
+}
+.contact-text address {
+    font-style: normal;
+}
+.contact-text a {
+    text-decoration: none;
+    color: #000000;
+}
+.contact-text img {
+    margin: 0 2px 0 0;
+    height: 15px;
+    position: relative;
+    top: 3px;
+}
+.worktime-time {
+    display: inline;
+    color: #758bc7;
+}
+.worktime-sunday {
+    display: inline;
+    color: #d75d64;
+}
+.contact form {
+    width: 400px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+}
+.contact form label {
+    font-size: 12px;
+}
+.contact form input, .contact form textarea {
+    margin: 3px 0 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+}
+.contact form textarea {
+    height: 80px;
+}
+.contact form input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #4c79aa;
+}
+.copyright {
+    font-size: 12px;
+    color: #958a94;
+    background-color: #f8f8f8;
+    line-height: 30px;
+}
+#up {
+    position: absolute;
+    margin-top: 10px;
+    right: 70px;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+}
+.statistic {
+    height: 50px;
+}
